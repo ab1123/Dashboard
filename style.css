@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #080705;
+  }
+  /* 
+  compound colors #804B4B #E6E3E6 #D6E9AC #B3B29F
+  Square Colours: #E6E0CC #E3E3E6 #E6E0CC #CFE6D5
+
+  */
+ /* --------------------LEFT NAV BAR --------------------------------- */
+  .navbar {
+    background-color: #53544d;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar li {
+    margin-bottom: 10px;
+
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+  }
+
+  
+  .LinkIcon{
+    display: flex;
+  }
+  .LinkIcon svg{
+    
+    margin-right: 0.5vw;
+  }
+  a{
+    margin:0px;
+    padding:0px !important;
+
+  }
+  .LinkIcon p,h4{
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar ul{
+    margin-top: 4vw;
+    margin-left: 1vw;
+  }
+  .navbar ul li{
+    margin-top: 3vw;
+  }
+  .profileContainer{
+    display: flex;
+    margin-top: 30px;
+  }
+  .profileContainer img{
+    height: 40px;
+    border-radius: 19.5px;
+  }
+  .profileContainer h3,p,h4{
+    margin: 0px;
+    padding: 0px;
+    color: #E6E6E6;
+
+  }
+  .profileContent p{
+    font-size: 14px;
+    margin-left: 15px;
+    color: #B3B3B3;
+
+  }
+  .profileContent{
+    margin-left: 5px;
+    margin-top: 4px;
+    justify-content: center;
+  }
+
+
+  /* -----------------------------------------RIGHT DASHBOARD PAGE---------------------------------------------------------- */
+  .content {
+    margin-left: 220px; /* Width of the navbar */
+    padding: 20px;
+    display: flex;
+    color: #B3B2B2;
+  }
+  .graph img{
+    height: 70%;
+    width: 90%;
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0.5%;
+  }
+
+  .graph{
+    display: block;
+    width: 80%;
+  }
+  .textStocks{
+    display: block;
+    
+
+  }
+  .card{
+    height: 8vw;
+    width: 25vw;
+    background-color: rgba(0.0314, 0.0275, 0.0196, 0.5);
+    margin: 30px;
+    margin-right: 0%;
+    border-radius: 10px;
+    display: flex;
+    
+
+  }
+  .card h2{
+    margin-top: 2.5vw;
+    
+  }
+  .card img{
+    margin-top: 2.5vw;
+    height: 25px;
+    width: 25px;
+    margin-left: 0.2vw;
+  }
+  .card1{
+    margin-left: 0;
+  }
+  .row1{
+    display: flex;
+  }
+  .row2{
+    display: flex;
+  }
+  .row3{
+    display: flex;
+  }
+  .Portfolio{
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0.5%;
+  }
+  .stonks{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+    height: 3vw;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgba(217, 142, 42, 0.2);
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  /* .tesla{
+    width: 56%;
+  } */
+  /* .navbar ul li:hover{
+    background-color: rgba(0, 0, 0,0.2);
+    
+  } */
+  .Barchart{
+    
+    width: 90%;
+    margin-left: 10px;
+    background-color: rgba(212, 40, 5, 0.03);
+    border-radius: 20px;
+    
+  }
+  .pDashHeader{
+    margin-top: 0.7vw;
+    margin-left: 2vw;
+  }
+  .Summary{
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0.5%;
+  }
+  .tChart {
+    
+    margin-top: 2vw;
+    margin-left: -3.5vw;
+    margin-right: 0px;
+    width: 210px;
+  }
+
+  .stonks p{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card:hover{
+    background-color: rgba(217, 142, 42, 0.2);
+    transform: scale(1.1,1.1);
+    transition: all 0.3s;
+  }
+  

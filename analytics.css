@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #080705;
+  }
+  /* 
+  compound colors #804B4B #E6E3E6 #D6E9AC #B3B29F
+  Square Colours: #E6E0CC #E3E3E6 #E6E0CC #CFE6D5
+
+  */
+ /* --------------------LEFT NAV BAR --------------------------------- */
+  .navbar {
+    background-color: #53544d;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar li {
+    margin-bottom: 10px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+  }
+
+  
+  .LinkIcon{
+    display: flex;
+  }
+  .LinkIcon svg{
+    
+    margin-right: 0.5vw;
+  }
+  a{
+    margin:0px;
+    padding:0px !important;
+
+  }
+  .LinkIcon p,h4{
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar ul{
+    margin-top: 4vw;
+    margin-left: 1vw;
+  }
+  .navbar ul li{
+    margin-top: 3vw;
+  }
+  .profileContainer{
+    display: flex;
+    margin-top: 30px;
+  }
+  .profileContainer img{
+    height: 40px;
+    border-radius: 19.5px;
+  }
+  .profileContainer h3,p,h4{
+    margin: 0px;
+    padding: 0px;
+    color: #E6E6E6;
+
+  }
+  .profileContent p{
+    font-size: 14px;
+    margin-left: 15px;
+    color: #B3B3B3;
+
+  }
+  .profileContent{
+    margin-left: 5px;
+    margin-top: 4px;
+    justify-content: center;
+  }
+/* Draggable div code */
+
+
+  
+  .draggable {
+    justify-content: center;
+    width: 500px;
+    align-self: center;
+    height: 400px;
+    background-color: rgba(67, 217, 251, 0.15);
+    margin: 10px;
+    cursor: grab;
+    position: absolute;
+   }
+   .draggable h1{
+    margin-left: 30%;
+    color: #fff;
+   }
+   .one{
+    top: 20%;
+    left: 30%;
+   }
+   .two{
+    top: 21%;
+    left: 31%;
+   }
+   .three{
+    top: 22%;
+    left: 32%;
+   }
+   .four{
+    top: 23%;
+    left: 33%;
+   }
+   .content{
+    margin-left: 200px;
+    
+   }
+   .draggable canvas{
+    color: white;
+    margin-top: 10%;
+    height: 200px;
+    /* background-color: rgba(67, 217, 251, 0.250); */
+   }
+   #proportionProfit{
+    margin-top: 0;
+    margin-left: 10%;
+   }
+  
