@@ -4,6 +4,7 @@ const parentDiv = document.getElementById("parent");
 draggableDivs.forEach(draggableDiv => {
   draggableDiv.addEventListener("dblclick", () => {
     // Increase size to fill full parent div
+    //Hell0, this is a commit from Ayushi
     draggableDiv.style.width = "800px";
     draggableDiv.style.height = "600px";
     draggableDiv.style.marginLeft="400px"
